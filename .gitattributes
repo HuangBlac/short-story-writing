@@ -1,0 +1,12 @@
+# Preserve exact bytes, including manuscript line endings.
+* -text
+
+# Defense in depth for public archives.
+fanfiction-workbench export-ignore
+debug.log export-ignore
+knowledge/texts/** export-ignore
+knowledge/texts/index.md -export-ignore
+test/**/测试文本*.md export-ignore
+knowledge/research/*-evidence.json export-ignore
+maintenance/raw-baseline.json export-ignore
+maintenance/annotation-baseline.json export-ignore

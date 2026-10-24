@@ -1,0 +1,17 @@
+# Local operating-system and Python cache files
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# Local generation output and debug residue
+fanfiction-workbench/
+debug.log
+
+# Original source material remains available on this machine only.
+/knowledge/texts/**
+!/knowledge/texts/index.md
+/test/**/测试文本*.md
+/knowledge/research/*-evidence.json
+/maintenance/raw-baseline.json
+/maintenance/annotation-baseline.json
